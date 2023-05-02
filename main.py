@@ -149,8 +149,6 @@ class Player(pygame.sprite.Sprite):
 #         super().__init__()
 #         # Load vine image, set initial position, etc.
 
-
-
 def draw_main_menu():
     start_game_text = menu_font.render("Start New Game", True, WHITE)
     start_game_rect = start_game_text.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
